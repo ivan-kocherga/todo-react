@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -38,7 +38,6 @@ body{
   justify-content: center;
   align-items: flex-start;
   padding-top: 10vh;
-
 }
 
 .all-tasks {
@@ -226,7 +225,7 @@ body{
   border: 2px solid currentColor;
   border-radius: 50%;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
@@ -235,7 +234,7 @@ body{
 .task:hover .custom-checkbox,
 [type="checkbox"]:focus + label .custom-checkbox {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   color: var(--clr-primary);
 }
 
@@ -259,9 +258,9 @@ body{
   height: 3px;
   background: currentColor;
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transform-origin: right;
-          transform-origin: right;
+  transform-origin: right;
   transition: -webkit-transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
@@ -269,9 +268,9 @@ body{
 
 [type="checkbox"]:checked + label::after {
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
 }
 
 .delete-stuff {
